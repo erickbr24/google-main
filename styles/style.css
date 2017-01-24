@@ -1,9 +1,45 @@
 #search {
+
+  -webkit-appearance:none;
+  -moz-appearance: none;
   width: 100%;
-  padding: 3px 3px;
-  border-radius: 4px 4px;
+  height: 30px;
+  border: 1px solid gray;
 }
+#search:hover{
+  border: 1px solid blue;
+}
+
 div {
-width:300px;
+  position:relative;
+  margin:auto;
+width:500px;
+padding:0px 4px 20px 0px;
+border:0.5px solid red;
+}
+img{
+  width:504px;
+  height: auto;
+}
+button{
+  position:relative;
+  width:200px;
+  height:40px;
+  top:10px;
+  border-radius:4px;
+  left:40px;
+  background-color:#d4d8dd;
+  color: black;
+  border:none;
+  -webkit-appearance:none;
+  -moz-appearance: none;
+}
+#bsea{
+  position:relative;
+  left:20px;
+}
+#bfeel{
+  position:relative;
+  left:80px;
 
 }
